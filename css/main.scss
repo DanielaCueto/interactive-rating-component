@@ -1,0 +1,102 @@
+
+body{
+  background-color: hsl(216, 12%, 8%);
+  font-family:'Overpass', sans-serif;}
+   
+
+
+.main{
+  box-sizing: border-box;
+  margin: auto; 
+  margin-top: 20%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 400px;
+  background-color: hsl(213, 19%, 18%); 
+  border-radius: 20px;
+
+  &__div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 40%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &--img{
+      width: 10px;
+      height: 10px;
+      padding: 15px;
+      
+      /*background-color: hsl(216, 12%, 40%);
+      padding: 10px;*/
+    }
+  }
+
+  
+
+  
+  &__title {
+    color: hsl(0, 0%, 100%);
+    font-family:'Overpass', sans-serif; 
+    font-weight: 700;
+    margin-bottom: 5px;
+
+  }
+
+  &__words{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    font-family:'Overpass', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 5px;
+    
+  }
+
+  &__list{
+    padding: 5px;
+    color: hsl(217, 12%, 63%);
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    
+    &--item{
+      width: 15px;
+      height: 15px;
+      padding: 15px;
+      background-color: hsl(216, 12%, 40%);
+      border-radius: 50%;
+      text-align: center;
+    }
+
+    
+
+  }
+
+  &__list--item:hover{
+    cursor: pointer;
+  }
+
+  &__button{
+    background-color: hsl(25, 97%, 53%);
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    margin: auto;
+    border-radius: 20px;
+    color: hsl(0, 0%, 100%);
+    
+  }
+
+  &__button:hover{
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+    cursor: pointer;
+  }
+}
+  
