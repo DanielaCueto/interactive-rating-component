@@ -15,21 +15,57 @@
   </head>
   <body>
     <main class="main">
-      <div class="main__div"><img class="main__div--img" src="./images/icon-star.svg" alt="icon-star" /></div>
+      <div class="main__div">
+        <img
+          class="main__div--img"
+          src="./images/icon-star.svg"
+          alt="icon-star"
+        />
+      </div>
 
       <h2 class="main__title">How did we do?</h2>
       <p class="main__words">
         Please let us know how we did your support request. All feedback is
         appreciated to help us improve our offering!
       </p>
-      <ul class="main__list" style="list-style: none">
-        <li class="main__list--item item-js">1</li>
-        <li class="main__list--item item-js">2</li>
-        <li class="main__list--item item-js">3</li>
-        <li class="main__list--item item-js">4</li>
-        <li class="main__list--item item-js">5</li>
-      </ul>
-      <button class="main__button button ">SUBMIT</button>
+      <form>
+        <ul class="main__list" style="list-style: none">
+          <li class="main__list--item item-js">
+            <label>
+              <input type="radio" value="1" class="input" name="select" />
+              <span class="radiomark">1</span>
+            </label>
+          </li>
+          <li class="main__list--item item-js">
+            <label>
+              <input type="radio" value="2" class="input" name="select" />
+              <span class="radiomark">2</span>
+            </label>
+          </li>
+          <li class="main__list--item item-js">
+            <label>
+              <input type="radio" value="3" class="input" name="select" />
+              <span class="radiomark">3</span>
+            </label>
+          </li>
+          <li class="main__list--item item-js">
+            <label>
+              <input type="radio" value="4" class="input" name="select" />
+              <span class="radiomark">4</span>
+            </label>
+          </li>
+          <li class="main__list--item item-js">
+            <label>
+              <input type="radio" value="5" class="input" name="select" />
+              <span class="radiomark">5</span>
+            </label>
+          </li>
+        </ul>
+
+      <button  class="main__button button">SUBMIT</button>
+      </form>
     </main>
   </body>
+
+  <script type="text/javascript" src="./js/00main.js"></script>
 </html>

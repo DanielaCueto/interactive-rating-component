@@ -47,8 +47,6 @@ body {
   width: 10px;
   height: 10px;
   padding: 15px;
-  /*background-color: hsl(216, 12%, 40%);
-      padding: 10px;*/
 }
 
 .main__title {
@@ -81,19 +79,6 @@ body {
           align-items: center;
 }
 
-.main__list--item {
-  width: 15px;
-  height: 15px;
-  padding: 15px;
-  background-color: #5a6472;
-  border-radius: 50%;
-  text-align: center;
-}
-
-.main__list--item:hover {
-  cursor: pointer;
-}
-
 .main__button {
   background-color: #fb7413;
   -webkit-box-sizing: border-box;
@@ -110,5 +95,30 @@ body {
   background-color: white;
   color: #fb7413;
   cursor: pointer;
+}
+
+.input {
+  display: none;
+}
+
+.radiomark {
+  width: 15px;
+  height: 15px;
+  padding: 15px;
+  background-color: #5a6472;
+  border-radius: 50%;
+  text-align: center;
+  display: block;
+}
+
+.radiomark:hover {
+  cursor: pointer;
+  background-color: #959eac;
+  color: white;
+}
+
+input:checked ~ .radiomark {
+  background-color: #fb7413;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */

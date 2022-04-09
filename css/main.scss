@@ -30,15 +30,8 @@ body{
       width: 10px;
       height: 10px;
       padding: 15px;
-      
-      /*background-color: hsl(216, 12%, 40%);
-      padding: 10px;*/
     }
   }
-
-  
-
-  
   &__title {
     color: hsl(0, 0%, 100%);
     font-family:'Overpass', sans-serif; 
@@ -62,24 +55,10 @@ body{
     color: hsl(217, 12%, 63%);
     display: flex; 
     justify-content: space-between;
-    align-items: center;
-    
-    &--item{
-      width: 15px;
-      height: 15px;
-      padding: 15px;
-      background-color: hsl(216, 12%, 40%);
-      border-radius: 50%;
-      text-align: center;
-    }
-
-    
-
+    align-items: center; 
   }
 
-  &__list--item:hover{
-    cursor: pointer;
-  }
+
 
   &__button{
     background-color: hsl(25, 97%, 53%);
@@ -98,5 +77,31 @@ body{
     color:hsl(25, 97%, 53%);
     cursor: pointer;
   }
-}
   
+}
+
+.input{
+  display: none;
+}
+
+.radiomark{
+  width: 15px;
+  height: 15px;
+  padding: 15px;
+  background-color: hsl(216, 12%, 40%);
+  border-radius: 50%;
+  text-align: center;
+  display: block;
+  &:hover{
+    cursor: pointer;
+    background-color:hsl(217, 12%, 63%) ;
+    color: hsl(0, 0%, 100%);
+  }
+}
+
+input:checked ~ .radiomark{
+ background-color:hsl(25, 97%, 53%);
+ color: hsl(0, 0%, 100%);
+}
+
+
