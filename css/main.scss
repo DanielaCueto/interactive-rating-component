@@ -1,9 +1,12 @@
 
 body{
   background-color: hsl(216, 12%, 8%);
-  font-family:'Overpass', sans-serif;}
-   
-
+  font-family:'Overpass', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 .main{
   box-sizing: border-box;
@@ -80,6 +83,14 @@ body{
   
 }
 
+@media screen and (max-width: 375px) {
+  body{
+    margin:auto;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
 .input{
   display: none;
 }
@@ -105,3 +116,29 @@ input:checked ~ .radiomark{
 }
 
 
+
+
+//thank you message: 
+
+.second-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color:hsl(0, 0%, 100%);
+}
+
+.selectedrating{
+  margin-top: 10%;
+  padding: 5px 15px;
+  color:hsl(25, 97%, 53%);
+  
+  border-radius: 20px;
+  background-color:#2D394B; 
+  font-size: 15px;
+}
+
+.paragraph{
+  text-align: center;
+  
+}

@@ -13,10 +13,10 @@ function handleSubmit(ev){
     const selectedRating = formData.get('select'); 
     console.log(selectedRating);
     container.innerHTML = 
-    `<div class="main"><img src ="./images/illustration-thank-you.svg" alt="thank you" >
-    <p>You selected ${selectedRating} out of 5</p>
-    <h2>Thank you!</h2>
-    <p>We apreciate you taking time to give a rating. If you ever need more support, don't hesitate to get in touch</p>
+    `<div class="second-main"><img width="200px" height= "125px" src ="./images/illustration-thank-you.svg" alt="thank you" >
+    <p class="selectedrating">You selected ${selectedRating} out of 5</p>
+    <h2 clas="thankyou">Thank you!</h2>
+    <p class="paragraph">We appreciate you taking time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
     </div>`
 
 }
