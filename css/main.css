@@ -97,12 +97,15 @@ body .main__button {
   background-color: #fb7413;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 10px;
+  padding: 15px;
   width: 100%;
   border: none;
   margin: auto;
   border-radius: 20px;
+  font-size: 15px;
   color: white;
+  letter-spacing: 3px;
+  font-weight: 500;
 }
 
 body .main__button:hover {
